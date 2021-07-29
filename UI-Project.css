@@ -197,9 +197,9 @@
 
 .learn-btn {
   height: 55px;
-  width: 150px;
+  width: 200px;
   background: darkorange;
-  border-radius: 40%;
+  border-radius: 40px;
   align-items: center;
   text-align: center;
   padding-top: 20px;
@@ -208,9 +208,9 @@
 
 .request-btn {
   height: 55px;
-  width: 150px;
+  width: 200px;
   background: skyblue;
-  border-radius: 40%;
+  border-radius: 40px;
   align-items: center;
   text-align: center;
   padding-top: 20px;
