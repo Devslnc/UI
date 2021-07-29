@@ -613,7 +613,7 @@
 
 .woman-background {
   background-image: url('images/xbg_4.webp');
-  background-size: 100% 900px;
+  background-size:  cover;
   background-repeat: no-repeat;
   height: 900px;
   width: 100%;
@@ -899,7 +899,7 @@ a.active,a:hover {
   }
 
   .woman-background {
-    background-size: 100% 700px;
+    background-size: cover;
     height: 700px;
   }
 }
@@ -998,7 +998,7 @@ a.active,a:hover {
   }
 
   .woman-background {
-    background-size: 100% 700px;
+    background-size: cover;
     height: 700px;
   }
 }
@@ -1237,7 +1237,7 @@ a.active,a:hover {
   }
 
   .woman-background {
-    background-size: 100% 500px;
+    background-size:  cover;
     height: 500px;
   }
 }
@@ -1476,11 +1476,17 @@ a.active,a:hover {
     padding: 30px 30px 0px 0px;
   }
   .woman-background {
-    background-size: 100% 400px;
+    background-size: cover;
     height: 400px;
   }
 }
 @media (max-width: 753px){
+  .couch {
+    width: 90vw;
+  }
+  .chairs {
+    width: 90vw;
+  }
   .stool-background {
     background-size: 100% 600px;
   }
@@ -1630,7 +1636,7 @@ a.active,a:hover {
   }
 
   .statistics-column {
-    width: 98vw;
+    width: 96vw;
     padding-top: 10px;
   }
 
@@ -1663,7 +1669,7 @@ a.active,a:hover {
   }
 
   .couch {
-    width: 95vw;
+    width: 90vw;
     height: 400px;
     background-size: 100% 400px;
   }
@@ -1681,7 +1687,7 @@ a.active,a:hover {
   }
 
   .chairs {
-    width: 95vw;
+    width: 90vw;
     height: 400px;
     background-size: 100% 400px;
   }
@@ -1699,7 +1705,6 @@ a.active,a:hover {
   .nav-div-height {
     height: 450px;
   }
-
   .footer {
     font-size: 8pt !important;
   }
@@ -1715,6 +1720,7 @@ a.active,a:hover {
   }
 
   .couch {
+    width: 80vw;
     height: 300px;
     background-size: 100% 300px;
   }
@@ -1729,7 +1735,11 @@ a.active,a:hover {
     background-size: 100% 300px;
   }
 
+  .footer > pre {
+    font-size: 2.5vw;
+  }
   .chairs {
+    width: 80vw;
     height: 300px;
     background-size: 100% 300px;
   }
